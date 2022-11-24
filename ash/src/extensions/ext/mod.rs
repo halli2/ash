@@ -6,8 +6,10 @@ pub use self::debug_marker::DebugMarker;
 #[allow(deprecated)]
 pub use self::debug_report::DebugReport;
 pub use self::debug_utils::DebugUtils;
+pub use self::descriptor_buffer::DescriptorBuffer;
 pub use self::extended_dynamic_state::ExtendedDynamicState;
 pub use self::extended_dynamic_state2::ExtendedDynamicState2;
+pub use self::extended_dynamic_state3::ExtendedDynamicState3;
 pub use self::full_screen_exclusive::FullScreenExclusive;
 pub use self::headless_surface::HeadlessSurface;
 pub use self::image_compression_control::ImageCompressionControl;
@@ -27,8 +29,10 @@ mod debug_marker;
 #[deprecated(note = "Please use the [DebugUtils](struct.DebugUtils.html) extension instead.")]
 mod debug_report;
 mod debug_utils;
+mod descriptor_buffer;
 mod extended_dynamic_state;
 mod extended_dynamic_state2;
+mod extended_dynamic_state3;
 mod full_screen_exclusive;
 mod headless_surface;
 mod image_compression_control;
